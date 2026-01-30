@@ -80,3 +80,18 @@ git clone https://github.com/<username>/260130_boot-server-live
 # git clone https://github.com/kimjava911/260130_boot-server-live
 # private 경우 암호 요구 -> (적절한 범위, 권한의) PAT를 넣으면 된다 
 ```
+
+### docker compose 실행
+```sh
+cd <clone한 깃 폴더>
+# docker compose up -d -> .env가 없...
+cp .env.sample .env
+vi .env # i 눌러서 편집, 나갈 때 esc + :wq
+```
+
+### 외부 접속
+```sh
+curl checkip.amazonaws.com
+curl ip.me
+# 43.200.1.0
+```
