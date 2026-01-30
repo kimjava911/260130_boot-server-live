@@ -71,3 +71,12 @@ docker tag ghcr.io/<username>/boot-server:latest boot-server:latest
 # docker tag ghcr.io/kimjava911/boot-server:latest boot-server:latest
 docker images
 ```
+
+### private repository 받아오기
+
+```sh
+git -v
+git clone https://github.com/<username>/260130_boot-server-live
+# git clone https://github.com/kimjava911/260130_boot-server-live
+# private 경우 암호 요구 -> (적절한 범위, 권한의) PAT를 넣으면 된다 
+```
