@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="BootServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+    <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+    <module name="boot-server.main" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="kr.java.bootserver.BootServerApplication" />
+    <method v="2">
+      <option name="LaunchBrowser.Before.Run" url="http://localhost:8080" />
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
